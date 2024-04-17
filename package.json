@@ -2,5 +2,18 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "typescript": "^5.4.5"
-  }
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "kirembel_from_scratch",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles/css/index.css -o ./src/styles/css/outputIndex.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
